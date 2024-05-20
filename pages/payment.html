@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="../pages/CSS/payment.css">
+    <!-- Boxicon -->
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="../home.html" style="text-decoration: none;">
+            <div class="navbar-text">
+            <i class="bx bx-left-arrow-alt"></i>
+            <h1 id="Nav-payment">Sunny Days</h1>
+            </div>
+        </a>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="payment-fade">
+    <!-- payment home -->
+    <section class="payment-home" data-aos="fade-up" data-aos-duration="700">
+        <img id="product-img" src="../assets/img/Payment/Sunyydays-payment.png" alt="">
+        <div class="payment-home-section">
+            <div class="payment-home-description" data-aos="fade-right" data-aos-duration="700">
+                <h1 id="product-name">Responsive Complete <br>
+                    Education Website</h1>
+                <p>By getting this responsive education website design file you will be able to get the idea how HTML CSS and JavaScript works in a website.</p>
+                <h5>Share</h5>
+                <div class="payment-home-description-icon">
+                    <i class="bx bxs-copy"></i>
+                    <i class="bx bxl-twitter" style="color: #1D9BF0;"></i>
+                    <i class="bx bxl-facebook" style="color: #1877F2;"></i>
+                </div>
+            </div>
+            <div class="payment-home-line"></div>
+            <div class="payment-home-main" data-aos="fade-left" data-aos-duration="700">
+                <h1 id="product-price">$6</h1>
+                <p>Quantity</p>
+                <div class="payment-home-main-quantity">
+                    <div class="minus"><i class="bx bx-minus"></i></div>
+                    <div class="payment-home-main-quantity-line"></div>
+                    <p id="quantity">1</p>
+                    <div class="payment-home-main-quantity-line-right"></div>
+                    <div class="plus"><i class="bx bx-plus"></i></div>
+                </div>
+                <div class="payment-price">
+                    <p>Enter a fair price</p>
+                </div>
+                <div class="payment-total-price">
+                    <p id="total-price">$6</p>
+                </div>
+                <button id="get-this">Get this!</button>
+            </div>
+        </div>
+    </section>
+    <!-- payment home end -->
+
+    <!-- payment recomendation -->
+    <div class="payment-fade1">
+        <section class="payment-recomendation" data-aos="fade-up" data-aos-duration="700">
+            <div class="payment-recomendation-container">
+                <img src="../assets/img/Payment/Music-recommend.png" alt="" data-id="6">
+                <img src="../assets/img/Payment/Pizza-recommend.png" alt="" data-id="2">
+                <img src="../assets/img/Payment/E-commerce-recommend.png" alt="" data-id="5">
+                <img src="../assets/img/Payment/Nuansatrips-recommend.png" alt="" data-id="1">
+            </div>
+        </section>
+    </div>
+        <!-- payment recomendation end -->
+    </div>
+
+    <!-- payment pop-up -->
+    <section class="pop-up" id="pop-up">
+        <div class="pop-up-profile">
+            <img src="../assets/img/Payment/profile.png" alt="">
+            <i class="bx bx-x"></i>
+        </div>
+        <h1>Ananta Vikasa</h1>
+        <p>You'll be charged <span id="pop-up-price">$6</span></p>
+        <div class="pop-up-item">
+            <img src="../assets/img/Payment/sunnydays-card.png" alt="" id="pop-up-card">
+            <div class="pop-up-item-description">
+                <p id="product-name-card">Responsive Complete ducation Website</p>
+                <div class="pop-up-item-quantity">
+                    <p id="pop-up-price-value">$6</p>
+                    <div class="pop-up-quantity">
+                        <p>Quantity: <span id="pop-up-quantity">1</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form id="payment-form">
+            <input type="text" placeholder="Username" id="username" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <button type="submit">Pay</button>
+        </form>
+    </section>
+    <!-- payment pop-up end -->
+    <script src="JS/payment.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
