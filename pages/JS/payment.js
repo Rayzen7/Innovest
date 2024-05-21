@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             navPayment: "Nuansa Trips",
             Name : "Complete Responsive Travel Site",
-            img: "../../assets/img/payment/Nuansatrips-payment.png",
+            img: "../../assets/img/Payment/Nuansatrips-payment.png",
             price: "6",
             card : "../../assets/img/payment/nuansatrips-card.png"
         },
