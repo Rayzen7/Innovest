@@ -474,6 +474,10 @@ body {
 /* transition end */
 
 /* about project */
+.about-project {
+    overflow-x: hidden;
+}
+
 .about-start-container,
 .about-end-container {
     width: 100%;
