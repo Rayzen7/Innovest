@@ -455,7 +455,7 @@ body {
 
     .pop-up-item {
         width: 90%;
-        padding-right: 0;
+        padding-right: 50px;
         padding-left: 50px;
         height: 120px;
         padding-top: 20px;
@@ -468,8 +468,8 @@ body {
     }
 
     .pop-up-item-description p {
-        width:  180px;
-        font-size: 12px;
+        width:  140px;
+        font-size: 11px;
     }
 
     .pop-up-item-quantity {
