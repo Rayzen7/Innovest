@@ -979,7 +979,7 @@ body {
 
     /* transition start */
     .transition-end {
-        transform: translateY(-220%);
+        transform: translateY(-200%);
     }
 
     .transition-end img {
@@ -989,7 +989,7 @@ body {
 
     /* about project */
     .about-project-start-card {
-        margin-top: -550px;
+        margin-top: -490px;
     }
 
     .about-project-start-card img,
