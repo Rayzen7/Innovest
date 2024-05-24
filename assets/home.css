@@ -914,7 +914,7 @@ body {
 
     /* transition start */
     .transition-start img {
-        transform: translateY(-600%);
+        transform: translateY(-560%);
         position: relative;
     }
     /* transition end */
@@ -979,7 +979,7 @@ body {
 
     /* transition start */
     .transition-end {
-        transform: translateY(-200%);
+        transform: translateY(-220%);
     }
 
     .transition-end img {
