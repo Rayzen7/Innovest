@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const product = paymentProduct.find(p => p.id == productId);
 
     if (product) {
-        const message = `Saya ${username} dengan email ${email} ingin memesan jasa web ${product.Name} sebanyak ${quantity} dengan harga per-setiap jasanya $${price} dan totalnya $${totalPrice}`;
+        const message = `Saya ${username} dengan email ${email} ingin memesan ${product.Name} sebanyak ${quantity} dengan harga per-setiap jasanya $${price} dan totalnya $${totalPrice}`;
         const adminPhoneNumber = '6285855172473';
         const whatsappURL = `https://wa.me/${adminPhoneNumber}/?text=${encodeURIComponent(message)}`;
 
@@ -79,97 +79,97 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             navPayment: "Nuansa Trips",
             Name : "Complete Responsive Travel Site",
-            img: "../../assets/img/Payment/Nuansatrips-payment.png",
+            img: '../../assets/img/Payment/Nuansatrips-payment.png',
             price: "6",
-            card : "../../assets/img/payment/nuansatrips-card.png"
+            card : '../../assets/img/Payment/nuansatrips-card.png'
         },
         {
             id: 2,
             Name : "Complete Responsive Pizza Site",
             navPayment: "Pizza Mood",
-            img: "../assets/img/payment/Pizza-mood-payment.png",
+            img: "../../assets/img/payment/Pizza-mood-payment.png",
             price: "8",
-            card : "../assets/img/payment/pizza-mood-card.png"
+            card : "../../assets/img/payment/pizza-mood-card.png"
         },
         {
             id: 3,
             navPayment: "Sunny Days",
             Name : "Complete Responsive Education Site",
-            img: "../assets/img/payment/Sunnydays-payment.png",
+            img: "../../assets/img/payment/Sunnydays-payment.png",
             price: "7",
-            card : "../assets/img/payment/sunnydays-card.png"
+            card : "../../assets/img/payment/sunnydays-card.png"
         },        
         {
             id: 4,
             navPayment: "Parallax Login Page",
             Name : "Complete Responsive Login Form Site",
-            img: "../assets/img/payment/Parallax-payment.png",
+            img: "../../assets/img/payment/Parallax-payment.png",
             price: "10",
-            card : "../assets/img/payment/login-card.png"
+            card : "../../assets/img/payment/login-card.png"
         },        
         {
             id: 5,
             navPayment: "Rayshoes",
             Name : "Complete Responsive Shoes Site",
-            img: "../assets/img/payment/Rayshoes-payment.png",
+            img: "../../assets/img/payment/Rayshoes-payment.png",
             price: "8",
-            card : "../assets/img/payment/rayshoes-card.png"
+            card : "../../assets/img/payment/raayshoes-card.png"
         },        
         {
             id: 6,
             navPayment: "Music Parallax",
             Name : "Complete Responsive Music Parallax Site",
-            img: "../assets/img/payment/Parallax-music-payment.png",
+            img: "../../assets/img/payment/Parallax-music-payment.png",
             price: "5",
-            card : "../assets/img/payment/music-card.png"
+            card : "../../assets/img/payment/music-card.png"
         },        
         {
             id: 7,
             navPayment: "Nintendo Pro",
             Name : "Nintendo Pro",
-            img: "../assets/img/shop/shop-payment/shop7.png",
+            img: "../../assets/img/shop/shop-payment/shop7.png",
             price: "310",
-            card : "../assets/img/shop/shop-payment/shop7a.png"
+            card : "../../assets/img/shop/shop-payment/shop7a.png"
         },        
         {
             id: 8,
             navPayment: "God CCTV",
             Name : "God CCTV",
-            img: "../assets/img/shop/shop-payment/shop8.png",
+            img: "../../assets/img/shop/shop-payment/shop8.png",
             price: "330",
-            card : "../assets/img/shop/shop-payment/shop8a.png",
+            card : "../../assets/img/shop/shop-payment/shop8a.png",
         },        
         {
             id: 9,
             navPayment: "Zosi CCTV",
             Name : "Zosi CCTV",
-            img: "../assets/img/shop/shop-payment/shop9.png",
+            img: "../../assets/img/shop/shop-payment/shop9.png",
             price: "290",
-            card : "../assets/img/shop/shop-payment/shop9a.png",
+            card : "../../assets/img/shop/shop-payment/shop9a.png",
         },        
         {
             id: 10,
             navPayment: "SpeedMax Wifi 6 Router",
             Name : "SpeedMax Wifi 6 Router",
-            img: "../assets/img/shop/shop-payment/shop10.png",
+            img: "../../assets/img/shop/shop-payment/shop10.png",
             price: "260",
-            card : "../assets/img/shop/shop-payment/shop10a.png",
+            card : "../../assets/img/shop/shop-payment/shop10a.png",
         },        
         {
             id: 11,
             navPayment: "Black Airpords",
             Name : "Black Airpords",
-            img: "../assets/img/shop/shop-payment/shop11.png",
+            img: "../../assets/img/shop/shop-payment/shop11.png",
             price: "200",
-            card : "../assets/img/shop/shop-payment/shop11a.png"
+            card : "../../assets/img/shop/shop-payment/shop11a.png"
         },        
         {
             id: 12,
             navPayment: "Camera HD Pro",
             Name : "Camera HD Pro",
-            img: "../assets/img/shop/shop-payment/shop12.png",
+            img: "../../assets/img/shop/shop-payment/shop12.png",
             price: "410",
-            card : "../assets/img/shop/shop-payment/shop12a.png",
+            card : "../../assets/img/shop/shop-payment/shop12a.png",
         },              
     ];
 
