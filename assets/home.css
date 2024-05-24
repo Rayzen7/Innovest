@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -117,7 +118,7 @@ body {
 .nav-container {
     display: flex;
     align-items: center;
-    margin-left: 310px;
+    margin-left: 200px;
 }
 
 .nav-btn {
@@ -474,14 +475,10 @@ body {
 /* transition end */
 
 /* about project */
-.about-project {
-    overflow-x: hidden;
-}
-
 .about-start-container,
 .about-end-container {
     width: 100%;
-}
+}   
 
 @keyframes scroll {
     0% {
@@ -998,7 +995,7 @@ body {
     .about-project-start-card img,
     .about-project-end-card img {
         height: auto;
-        width: 50%;
+        width: 50%;    
     }
 
     .about-project-end-card {
